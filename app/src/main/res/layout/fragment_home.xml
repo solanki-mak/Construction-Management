@@ -208,7 +208,7 @@
         android:layout_margin="20dp"
         android:background="@drawable/rounded_background"
         android:drawableLeft="@drawable/ic_baseline_add_24"
-        android:text="Add Transaction"
+        android:text="Add"
         android:textSize="10sp"
         android:textStyle="bold" />
 

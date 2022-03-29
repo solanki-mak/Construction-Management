@@ -193,20 +193,20 @@ public class HomeFragment extends Fragment implements CategoryListAdapter.Onclic
                 }
                 for (int i = 0; i < homeScreenListData.size(); i++) {
                     Data c = homeScreenListData.get(i);
-                    if (c.getCategory().toLowerCase().equals("clothing")) {
-                        c.setImgid(R.drawable.ic_clothing);
-                    } else if (c.getCategory().toLowerCase().equals("food")) {
-                        c.setImgid(R.drawable.ic_food);
-                    } else if (c.getCategory().toLowerCase().equals("fuel")) {
-                        c.setImgid(R.drawable.ic_gas_pump);
-                    } else if (c.getCategory().toLowerCase().equals("health")) {
-                        c.setImgid(R.drawable.ic_health);
-                    } else if (c.getCategory().toLowerCase().equals("recharge")) {
-                        c.setImgid(R.drawable.ic_mobile_recharge);
-                    } else if (c.getCategory().toLowerCase().equals("electricity")) {
-                        c.setImgid(R.drawable.ic_lightning);
+                    if (c.getCategory().toLowerCase().equals("Labour")) {
+                        c.setImgid(R.drawable.labour);
+                    } else if (c.getCategory().toLowerCase().equals("Material")) {
+                        c.setImgid(R.drawable.material);
+                    } else if (c.getCategory().toLowerCase().equals("Transport")) {
+                        c.setImgid(R.drawable.transport);
+                    } else if (c.getCategory().toLowerCase().equals("Equipment")) {
+                        c.setImgid(R.drawable.equp);
+                    } else if (c.getCategory().toLowerCase().equals("Food & Travel")) {
+                        c.setImgid(R.drawable.food);
+                    } else if (c.getCategory().toLowerCase().equals("Designer")) {
+                        c.setImgid(R.drawable.desig);
                     } else {
-                        c.setImgid(R.drawable.ic_wallet);
+                        c.setImgid(R.drawable.own);
                     }
 
                     if (homeScreenListData.get(i).getParentCategory().equals("Income")) {
@@ -247,20 +247,20 @@ public class HomeFragment extends Fragment implements CategoryListAdapter.Onclic
                     for (DocumentSnapshot d : list) {
                         Data c = d.toObject(Data.class);
 
-                        if (c.getCategory().toLowerCase().equals("clothing")) {
-                            c.setImgid(R.drawable.ic_clothing);
-                        } else if (c.getCategory().toLowerCase().equals("food")) {
-                            c.setImgid(R.drawable.ic_food);
-                        } else if (c.getCategory().toLowerCase().equals("fuel")) {
-                            c.setImgid(R.drawable.ic_gas_pump);
-                        } else if (c.getCategory().toLowerCase().equals("health")) {
-                            c.setImgid(R.drawable.ic_health);
-                        } else if (c.getCategory().toLowerCase().equals("recharge")) {
-                            c.setImgid(R.drawable.ic_mobile_recharge);
-                        } else if (c.getCategory().toLowerCase().equals("electricity")) {
-                            c.setImgid(R.drawable.ic_lightning);
+                        if (c.getCategory().toLowerCase().equals("Labour")) {
+                            c.setImgid(R.drawable.labour);
+                        } else if (c.getCategory().toLowerCase().equals("Material")) {
+                            c.setImgid(R.drawable.material);
+                        } else if (c.getCategory().toLowerCase().equals("Transport")) {
+                            c.setImgid(R.drawable.transport);
+                        } else if (c.getCategory().toLowerCase().equals("Equipment")) {
+                            c.setImgid(R.drawable.equp);
+                        } else if (c.getCategory().toLowerCase().equals("Food & Travel")) {
+                            c.setImgid(R.drawable.food);
+                        } else if (c.getCategory().toLowerCase().equals("Designer")) {
+                            c.setImgid(R.drawable.desig);
                         } else {
-                            c.setImgid(R.drawable.ic_wallet);
+                            c.setImgid(R.drawable.own);
                         }
 
 
@@ -344,13 +344,13 @@ public class HomeFragment extends Fragment implements CategoryListAdapter.Onclic
                 dialog.setContentView(layout);
                 simpleList = layout.findViewById(R.id.simpleListView);
 
-                categoryModels.add(new CategoryModel(R.drawable.ic_clothing, "Clothing"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_food, "Food"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_gas_pump, "Fuel"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_mobile_recharge, "Recharge"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_lightning, "Electricity"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_health, "Health"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_wallet, "Salary"));
+                categoryModels.add(new CategoryModel(R.drawable.labour, "Labour"));
+                categoryModels.add(new CategoryModel(R.drawable.material, "Material"));
+                categoryModels.add(new CategoryModel(R.drawable.transport, "Transport"));
+                categoryModels.add(new CategoryModel(R.drawable.equp, "Equipment"));
+                categoryModels.add(new CategoryModel(R.drawable.food, "Food & Travel"));
+                categoryModels.add(new CategoryModel(R.drawable.desig, "Designer"));
+                categoryModels.add(new CategoryModel(R.drawable.own, "Owner"));
                 categoryListAdapter = new CategoryListAdapter(categoryModels, getContext(), HomeFragment.this::onClick);
                 simpleList.setLayoutManager(new LinearLayoutManager(getContext()));
                 simpleList.setAdapter(categoryListAdapter);
@@ -446,13 +446,13 @@ public class HomeFragment extends Fragment implements CategoryListAdapter.Onclic
                 dialog.setContentView(layout);
                 simpleList = layout.findViewById(R.id.simpleListView);
 
-                categoryModels.add(new CategoryModel(R.drawable.ic_clothing, "Clothing"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_food, "Food"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_gas_pump, "Fuel"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_mobile_recharge, "Recharge"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_lightning, "Electricity"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_health, "Health"));
-                categoryModels.add(new CategoryModel(R.drawable.ic_wallet, "Salary"));
+                categoryModels.add(new CategoryModel(R.drawable.labour, "Labour"));
+                categoryModels.add(new CategoryModel(R.drawable.material, "Material"));
+                categoryModels.add(new CategoryModel(R.drawable.transport, "Transport"));
+                categoryModels.add(new CategoryModel(R.drawable.equp, "Equipment"));
+                categoryModels.add(new CategoryModel(R.drawable.food, "Food & Travel"));
+                categoryModels.add(new CategoryModel(R.drawable.desig, "Designer"));
+                categoryModels.add(new CategoryModel(R.drawable.own, "Owner"));
                 categoryListAdapter = new CategoryListAdapter(categoryModels, getContext(), HomeFragment.this::onClick);
                 simpleList.setLayoutManager(new LinearLayoutManager(getContext()));
                 simpleList.setAdapter(categoryListAdapter);

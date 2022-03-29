@@ -35,13 +35,13 @@ public class GalleryFragment extends Fragment implements CategoryListAdapter.Onc
         categoryRV.setLayoutManager(new LinearLayoutManager(getContext()));
         categoryRV.setAdapter(categoryListAdapter);
 
-        categoryModels.add(new CategoryModel(R.drawable.ic_clothing, "Clothing"));
-        categoryModels.add(new CategoryModel(R.drawable.ic_food, "Food"));
-        categoryModels.add(new CategoryModel(R.drawable.ic_gas_pump, "Fuel"));
-        categoryModels.add(new CategoryModel(R.drawable.ic_mobile_recharge, "Recharge"));
-        categoryModels.add(new CategoryModel(R.drawable.ic_lightning, "Electricity"));
-        categoryModels.add(new CategoryModel(R.drawable.ic_health, "Health"));
-        categoryModels.add(new CategoryModel(R.drawable.ic_wallet, "Salary"));
+        categoryModels.add(new CategoryModel(R.drawable.labour, "Labour"));
+        categoryModels.add(new CategoryModel(R.drawable.material, "Material"));
+        categoryModels.add(new CategoryModel(R.drawable.transport, "Transport"));
+        categoryModels.add(new CategoryModel(R.drawable.equp, "Equipment"));
+        categoryModels.add(new CategoryModel(R.drawable.food, "Food & Travel"));
+        categoryModels.add(new CategoryModel(R.drawable.desig, "Designer"));
+        categoryModels.add(new CategoryModel(R.drawable.own, "Owner"));
         categoryListAdapter.notifyDataSetChanged();
         return root;
     }

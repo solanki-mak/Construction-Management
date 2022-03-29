@@ -9,9 +9,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/accounting"
+        android:icon="@drawable/cons"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/accounting"
+        android:roundIcon="@drawable/cons"
         android:supportsRtl="true"
         android:theme="@style/Theme.Expense_Manager">
         <!--        <activity android:name=".MainActivity" />-->

@@ -14,18 +14,18 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="75dp"
+        android:layout_height="89dp"
         android:layout_gravity="center_vertical"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/accounting" />
+        app:srcCompat="@drawable/cons" />
 
     <TextView
         android:id="@+id/nav_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Expense Manager"
+        android:text="Construction Managment"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView

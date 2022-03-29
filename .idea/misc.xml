@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Expense-Manager/app/src/main/res/drawable/background.xml" value="0.1395" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/drawable/btn_bg.xml" value="0.1395" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/drawable/date_display_container.xml" value="0.1395" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/drawable/ic_food.xml" value="0.1395" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/activity_registeration.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/bottom_sheet_update.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/category_alert_dialogbox.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/category_list_item.xml" value="0.14666666666666667" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/fragment_slideshow.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/homescreen_list_item.xml" value="0.44045368620037806" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/nav_header_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/setbalance_alert_dialogbox.xml" value="0.4466666666666667" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/smslist_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/layout/update.xml" value="0.22" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/menu/main.xml" value="0.2" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1395" />
+        <entry key="..\:/Expense-Manager/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1395" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
